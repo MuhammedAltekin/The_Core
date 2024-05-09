@@ -126,8 +126,7 @@ void AEnemyBase::DeathEvent()
 	PlayerGameState->WholeTimers.Add(DeadTh);
 }
 
-float AEnemyBase::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator,
-                             AActor* DamageCauser)
+float AEnemyBase::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator,AActor* DamageCauser)
 {
 	if (EventInstigator == UGameplayStatics::GetPlayerController(GetWorld(),0))
 	{

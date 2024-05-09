@@ -484,19 +484,19 @@ void ASolider::SlowMotion_Started()
 		switch (PlayerGameState->SlowMotionLevel)
 			{
 			case 1:
-				CD_SlowMotion = 15;
+				CD_SlowMotion = 20;
 				SlowMo_Multiplier = .5f;
 				break;
 			case 2:
-				CD_SlowMotion = 10;
+				CD_SlowMotion = 15;
 				SlowMo_Multiplier = 1;
 				break;
 			case 3:
-				CD_SlowMotion = 10;
+				CD_SlowMotion = 15;
 				SlowMo_Multiplier = 1.5f;
 				break;
 			case 4:
-				CD_SlowMotion = 5;
+				CD_SlowMotion = 10;
 				SlowMo_Multiplier = 2;
 				break;
 			default:;

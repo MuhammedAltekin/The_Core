@@ -65,6 +65,8 @@ public:
 	bool IsRotating;
 	UPROPERTY(EditInstanceOnly, BlueprintReadWrite)
 	bool bSupportMode;
+	UPROPERTY(EditDefaultsOnly,BlueprintReadWrite)
+	bool bBoss;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	AAIController* AIController;
 	UPROPERTY(EditDefaultsOnly)
